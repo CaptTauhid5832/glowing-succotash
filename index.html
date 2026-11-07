@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelBloom | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">TravelBloom</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about_us.html">About Us</a></li>
+      <li><a href="contact_us.html">Contact Us</a></li>
+    </ul>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Enter a destination or keyword" aria-label="Search destinations">
+      <button type="button" id="btnSearch">Search</button>
+      <button type="button" id="btnClear">Clear</button>
+    </div>
+  </nav>
+
+  <main class="hero">
+    <section class="intro">
+      <h1>Explore Dream Destinations</h1>
+      <p>
+        Discover breathtaking beaches, ancient temples and vibrant cities around the world.
+        Immerse yourself in new cultures, local traditions and unforgettable experiences.
+        Just type a keyword such as <strong>beach</strong>, <strong>temple</strong> or
+        <strong>country</strong> in the search bar and get instant recommendations.
+      </p>
+      <a href="contact_us.html" class="btn-book">Book Now</a>
+
+      <div class="social-links">
+        <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter">Twitter</a>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+        <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="YouTube">YouTube</a>
+      </div>
+    </section>
+
+    <section id="results" class="results" aria-live="polite"></section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 TravelBloom. All rights reserved.</p>
+  </footer>
+
+  <script src="travel_recommendation.js"></script>
+</body>
+</html>
